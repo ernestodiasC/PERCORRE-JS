@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.container{
+    width: 90vw;
+    padding: .40rem;
+
+    background: linear-gradient(to top,#999999,#FFFFFF);
+    color:#060606;
+    border: .15rem solid #060606;
+    border-radius: .4rem;
+
+    box-shadow: 3px 3px 5px #00000089;
+
+    display:flex;
+    direction:ltr;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container div{
+    padding: .75rem;
+    margin: .5rem;
+    display:inline-block;
+    border: .10rem solid #060606;
+    border-radius: .4rem;
+    background: linear-gradient(to bottom,#FFFFFF,#DADADA);
+    text-align: center;
+    flex: 1;
+}
+
+.container div button{
+    font-size: 2.5rem;
+}
+
+.container div p{
+    font-size:2rem;
+}
