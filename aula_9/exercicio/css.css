@@ -1,0 +1,86 @@
+:root{
+    font-size:20px;
+    line-height: 0%;
+}
+
+body{
+    text-align: center;
+    color: #ffffff;
+
+    background: linear-gradient(to top,#131313,#494949);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 2rem;
+}
+
+label{
+    line-height: 1.33rem;
+    text-shadow: 0rem 0rem .15rem #c9c9c97c;
+}
+input{
+    line-height: 1rem;
+    margin: 0 auto;
+    margin-bottom:1.5rem;
+    display: block;
+    width: 50vw;
+}
+
+button{
+    color:#FFFFFF;
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0rem 0rem .5rem #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    padding: .25rem 0rem;
+    text-decoration: none;
+
+    font-size:1.85rem;
+    width:5rem;
+    display: block;
+    margin: 0 auto;
+    width:10rem;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+button:hover{
+    filter: drop-shadow(0rem 0rem .5rem #FFFFFF);
+    transform: scale(1.05);
+}
+button:active{
+    filter: drop-shadow(0rem 0rem 0rem #FFFFFF);
+    transform: scale(.8);
+}
+
+h1{
+    text-shadow: 0rem 0rem .3rem #c9c9c9bc;
+}
+
+.container{
+    width: 90vw;
+    padding: .40rem;
+    text-align: center;
+
+    background: linear-gradient(to top,#000000,#323232);
+    color:#ffffff;
+    border: .15rem solid #ffffff;
+    border-radius: .4rem;
+
+    box-shadow: .1rem .1rem .2rem #ffffff89;
+
+    display:flex;
+    direction:ltr;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#result{
+    line-height: 1rem;
+}
