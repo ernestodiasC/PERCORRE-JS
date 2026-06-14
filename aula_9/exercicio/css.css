@@ -59,7 +59,7 @@ button:active{
     transform: scale(.8);
 }
 
-h1{
+h1,.slogan{
     text-shadow: 0rem 0rem .3rem #c9c9c9bc;
 }
 
@@ -80,7 +80,18 @@ h1{
     flex-direction: column;
     justify-content: space-around;
 }
-
 #result{
     line-height: 1rem;
+}
+.red{
+    color:#FF0000;
+}
+small{
+    font-size:.75rem;
+}
+p{
+    line-height: 1.15rem;
+}
+ol{
+    line-height: 1.55rem;
 }

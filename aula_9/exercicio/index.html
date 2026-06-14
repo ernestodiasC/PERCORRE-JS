@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home!</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="./css.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Login</h1>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="password">Senha</label>
+        <br>
+        <input type="text" name="password" id="password">
+        <br>
+        <button onclick="login()">Login</button>
+        <br>
+        <p id="result"></p>
+        <p><small>Ao logar numa conta, você aceita nossos <a href="./termos.html">Termos</a></small></p>
+    </div>
+
+    <script src="login.js"></script>
 </body>
 </html>
