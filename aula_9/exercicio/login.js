@@ -31,10 +31,10 @@ function login_test(result){
     }
     switch(cUD[1]){
     case 0:
-        window.location.href=window.location.href+"/sucesso.html";
+        window.location.href+="/sucesso.html"
         return "Usuario correto \n Espere um segundo"
     case 3:
-        window.location.href=window.location.href+"/isaac.html";
+        window.location.href+="/isaac.html"
         return "THE BINDING OF WHAT!?"
     case 1:
         return "Conta de Admin indentificado \n faça login funcionar logo!"
